@@ -27,10 +27,17 @@ export const commentaryEventResource = '/ComentariosEvento';
  * Rota para o recurso Próximos Eventos
  */
 export const nextEventResource = '/Evento/ListarProximos';
+
 /**
  * Rota para o recurso Tipos de Eventos
- */
+*/
 export const eventsTypeResource = '/TiposEvento';
+
+//Rota para eventos Anteriores 
+
+export const pastEventResource = 'Evento/ListarAnteriores';
+
+
 /**
  * Rota para o recurso Instituição
  */
@@ -42,7 +49,7 @@ export const loginResource = '/Login';
 
 // const apiPort = '5000';
 // const localApiUri = `http://localhost:${apiPort}/api`;
-const externalApiUri = 'https://eventwebapi-lucasmachado.azurewebsites.net'
+const externalApiUri = 'https://eventwebapi-lucasmachado.azurewebsites.net/api'
 // const externalApiUri = null;
 
 const api = axios.create({
