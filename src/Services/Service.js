@@ -7,6 +7,11 @@ import axios from 'axios';
 
 
 /**
+Rota para buscar evento por id   
+ */
+export const eventsByIdResource = '/Evento/{id}';
+
+/**
  * Rota para o recurso Evento
  */
 export const eventsResource = '/Evento';
@@ -21,6 +26,11 @@ export const presencesEventResource = '/PresencasEvento';
 /**
  * Rota para o recurso Presenças Evento
  */
+
+/**Rota para comentarios IA */
+export const commentaryShowEventResource = '/ComentariosEvento/ListarSomenteExibe';
+
+/** Rota para comentario geral*/
 export const commentaryEventResource = '/ComentariosEvento';
 
 

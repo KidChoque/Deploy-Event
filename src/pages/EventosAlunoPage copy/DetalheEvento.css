@@ -18,3 +18,11 @@
         max-width: 350px;
     }
 }
+
+.info-evento-section, .lista-eventos-section{
+    padding: 50px,0
+}
+
+.info-evento-section{
+    height: 400px;
+}

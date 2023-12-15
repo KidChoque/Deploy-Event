@@ -12,8 +12,8 @@ const PastEvent = ({
   description,
   eventDate,
   idEvent,
-  buttonText,
-  buttonLink,
+  buttonText
+  
 }) => {
   function visualizar(idEvent) {
     // dá pra usar a prop idEvent? testar
@@ -38,7 +38,7 @@ const PastEvent = ({
         {dateFormatDbToView(eventDate)}
       </p>
 
-      <Link to={buttonLink} className="event-card__connect-link">
+      <Link to={`/detalhe-evento/${idEvent}`} className="event-card__connect-link">
         {buttonText}
       </Link>
 
